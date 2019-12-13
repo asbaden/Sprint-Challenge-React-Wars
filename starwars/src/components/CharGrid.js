@@ -29,15 +29,14 @@ export default function CharGrid() {
                 <CharCard
                 key={char.id}
                 name={char.name}
+                birth={char.birth_year}
                 mass={char.mass}
                 height={char.height}
-                birth={char.birth_year}
+                
                 />
             );
             })}
-    
-              
-           </Row>
+            </Row>
         </Container>
 
     );
